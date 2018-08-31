@@ -2,7 +2,7 @@
 from action.PageAction import *
 from util.ParseeExcel import ParseExcel
 from config.VarConfig import *
-import time,traceback
+import traceback
 
 excelObj=ParseExcel()
 excelObj.loadWorkBook(dataFilePath)
